@@ -1,0 +1,25 @@
+.cell_container{
+	-fx-background-color : #FFFFFF;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+	 
+}
+
+.Author_lbl{
+	-fx-text-fill: #AAAAAA;
+	-fx-font-weight: 700;
+}
+
+.Book_name_lbl{
+   -fx-text-fill: #000000;
+   -fx-font-weight: 700;
+   
+}
+
+.amount_lbl{
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-background-radius: 2;
+	 -fx-font-weight: 700;
+	
+}

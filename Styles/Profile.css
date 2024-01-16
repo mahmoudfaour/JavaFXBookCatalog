@@ -1,0 +1,45 @@
+.screen {
+	
+	-fx-background-color: #FFFFFF;
+}
+
+.title {
+	-fx-font-size: 2.6em;
+	-fx-font-family: "Calibri Light"
+}
+.back_button{
+	
+	-fx-background-color: linear-gradient(to right, #003366, #001f4d);
+}
+
+
+
+.Input_Label {
+    -fx-font-size: 1.3em;
+   -fx-font-family: "Calibri Light" ;
+}
+
+
+.Input_TextField {
+   -fx-background-color: #FFFFFF;
+   -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3); 
+}
+
+.Client_Book_ListView {
+    -fx-border-color: #DDDDDD; /* Light border color */
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 0 0 10;
+    -fx-padding: 10 0 10 10;
+    -fx-alignment: center ;
+    -fx-border-width: 0 1 0 0;
+    -fx-spacing:10;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA,10,0,0,10); 
+}
+.Client_Book_ListView .scroll-bar:vertical {
+	-fx-scale-x: 0;
+}
+
+.List-cell {
+	-fx-background-color: #EEEEEE;
+	-fx-padding:15 0.0 15 0.0 ;
+}

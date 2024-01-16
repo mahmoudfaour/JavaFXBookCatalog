@@ -1,0 +1,28 @@
+
+.screen {
+	
+	-fx-background-color: #FFFFFF;
+}
+
+.title {
+	-fx-font-size: 2.6em;
+	-fx-font-family: "Calibri Light"
+}
+.mahmoud_image {
+    -fx-border-radius: 50%;
+}
+
+.paragraph {
+    -fx-background-color: #FFFFFF; /* White background color */
+    -fx-text-fill: #333333; /* Dark text color */
+    -fx-opacity: 0.8; /* Adjust opacity for reduced visibility */
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA,10,0,0,10); 
+    -text-align:center;
+}
+
+.back_button{
+	
+	-fx-background-color: linear-gradient(to right, #003366, #001f4d);
+}
+
+

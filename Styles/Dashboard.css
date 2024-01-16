@@ -1,0 +1,103 @@
+
+.dashboard {
+	
+	-fx-background-color: #FFFFFF;
+}
+
+.user_name {
+	-fx-font-size: 2.6em;
+	-fx-font-family: "Calibri Light"
+}
+
+.intro_Sentence{
+	-fx-font-size: 2em;
+	-fx-font-family: "Calibri Light";
+	-fx-text-fill: #00203FFF;
+	
+}
+
+.date_lbl {
+	-fx-text-fill: #AAAAAA;
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Calibri Light";
+}
+
+
+/* Style the ListView */
+.Book_ListView {
+    -fx-border-color: #DDDDDD; /* Light border color */
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 0 0 10;
+    -fx-padding: 10 0 10 10;
+    -fx-alignment: center ;
+    -fx-border-width: 0 1 0 0;
+    -fx-spacing:10;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA,10,0,0,10); 
+}
+.Book_ListView .scroll-bar:vertical {
+	-fx-scale-x: 0;
+}
+
+.List-cell {
+	-fx-background-color: #EEEEEE;
+	-fx-padding:15 0.0 15 0.0 ;
+}
+
+
+.Input_Instruction {
+    -fx-font-size: 1em;
+   -fx-font-family: "Calibri Light" ;
+  
+}
+
+
+.Input_Label {
+    -fx-font-size: 1.3em;
+   -fx-font-family: "Calibri Light" ;
+}
+
+
+.Input_TextField {
+   -fx-background-color: #FFFFFF;
+   -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3); 
+}
+
+.Buy_Button {
+    -fx-background-color: linear-gradient(to right, #003366, #001f4d); /* Darker blue gradient colors */
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 230px;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+
+
+/* Hover effect for the Buy button */
+.Buy_Button:hover {
+    -fx-background-color: #45a049; /* Darker green background color on hover */
+    -fx-cursor: hand;
+}
+
+
+.Remove_Button {
+    -fx-background-color: linear-gradient(to right, #003366, #001f4d); /* Darker blue gradient colors */
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 230px;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+
+
+/* Hover effect for the Buy button */
+.Remove_Button:hover {
+    -fx-background-color: red; /* Darker green background color on hover */
+    -fx-cursor: hand;
+}
+
+
+.Reload_Button {
+	-fx-background-color: #EEEEEE;
+	
+	
+}

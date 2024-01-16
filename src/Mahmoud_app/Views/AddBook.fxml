@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="600.0" styleClass="screen" stylesheets="@../../../Styles/Profile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mahmoud_app.Controllers.Admin.AdminAddBookController">
+   <children>
+      <Button fx:id="back_btn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" styleClass="back_button" text="&lt;" textFill="WHITE" />
+      <Label layoutX="186.0" layoutY="19.0" styleClass="title" text="ADD BOOK">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/add_book.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Button fx:id="add_btn" layoutX="279.0" layoutY="249.0" mnemonicParsing="false" styleClass="back_button" text="ADD" textFill="WHITE" AnchorPane.bottomAnchor="60.0" />
+      <Label layoutX="139.0" layoutY="123.0" styleClass="Input_Label" text="Name :" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="123.0" />
+      <Label layoutX="148.0" layoutY="184.0" styleClass="Input_Label" text="Author :" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="185.0" />
+      <TextField fx:id="name_field" layoutX="233.0" layoutY="121.0" styleClass="Input_TextField" />
+      <TextField fx:id="Author_field" layoutX="233.0" layoutY="182.0" styleClass="Input_TextField" />
+      <Label layoutX="140.0" layoutY="240.0" styleClass="Input_Label" text="Amount :" AnchorPane.leftAnchor="140.0" />
+      <TextField fx:id="Amount_field" layoutX="233.0" layoutY="237.0" styleClass="Input_TextField" />
+   </children>
+</AnchorPane>

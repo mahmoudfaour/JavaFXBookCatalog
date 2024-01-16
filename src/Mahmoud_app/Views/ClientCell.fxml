@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" styleClass="cell_container" stylesheets="@../../../Styles/BookCell.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/view_user.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="40.0" layoutX="314.0" layoutY="5.0" startX="-100.0" />
+      <Label fx:id="client_name_lbl" layoutX="88.0" layoutY="17.0" styleClass="Book_name_lbl" text="Mahmoud Faour" />
+      <Label fx:id="pass_lbl" layoutX="272.0" layoutY="17.0" styleClass="amount_lbl" text="Pass123" />
+   </children>
+</AnchorPane>

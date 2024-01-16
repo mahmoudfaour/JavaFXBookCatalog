@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="550.0" styleClass="cell_container" stylesheets="@../../../Styles/BookCell.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"  >
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0">
+         <image>
+            <Image url="@../../../Images/book_icon_dashboard.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" endY="10.0" layoutX="409.0" layoutY="42.0" startX="100.0" startY="-33.0" AnchorPane.leftAnchor="508.5" />
+      <Line endX="100.0" endY="10.0" layoutX="187.0" layoutY="42.0" startX="100.0" startY="-33.0" AnchorPane.leftAnchor="286.5" />
+      <Label fx:id="book_name_lbl" layoutX="142.0" layoutY="22.0" styleClass="Book_name_lbl" text="Dictionnary" AnchorPane.leftAnchor="142.0" />
+      <Label fx:id="author_lbl" layoutX="367.0" layoutY="22.0" styleClass="Author_lbl" text="Victor Hugo" AnchorPane.leftAnchor="367.0" />
+      <Label fx:id="amount_lbl" layoutX="527.0" layoutY="22.0" styleClass="amount_lbl" text="6" />
+   </children>
+</AnchorPane>
